@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>Jurusan</th>
+    <th>Gedung</th>
+    <th>Dosen</th>
+  </tr>
+  <tr>
+    <td>Sarjana Terapan Teknik Informatika</td>
+    <td>Gedung (A)</td>
+    <td>Slamet Wiyono, S.Pd., M.Eng</td>
+  </tr>
+  <tr>
+    <td>Sarjana Terapan Akuntansi Sektor Publik</td>
+    <td>Gedung (B)</td>
+    <td>Taufiq Abidin, M.Kom</td>
+  </tr>
+  <tr>
+    <td>D3 Teknik Mesin</td>
+    <td>Gedung (C)</td>
+    <td>M. Nishom, M.Kom</td>
+  </tr>
+  <tr>
+    <td>D3 Akuntansi</td>
+    <td>Gedung (D)</td>
+    <td>Dega Surono Wibowo, S.T., M.Kom</td>
+  </tr>
+  <tr>
+    <td>D3 Perhotelan</td>
+    <td></td>
+    <td>Ginanjar Wiro Sasmito, M.Kom </td>
+  </tr>
+  <tr>
+    <td>D3 Farmasi</td>
+    <td></td>
+    <td>Sharfina Febbi Handayani, M.kom</td>
+  </tr>
+</table>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Satria"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Wibowo"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>"Klik Submit untuk masuk".</p>
+
+</body>
+</html>
+
